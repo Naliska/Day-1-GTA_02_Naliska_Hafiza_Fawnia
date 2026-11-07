@@ -14,7 +14,7 @@ Repository ini merupakan tempat penyimpanan dan dokumentasi kegiatan Day 1 Proye
 - Jenis Kegiatan: Workshop
 - Peserta: Individu
 
-DOKUMENTASI KEGIATAN WORKSHOP
+## DOKUMENTASI KEGIATAN WORKSHOP
 ## 1. Rangkuman Materi Workshop
 Dengan menggunakan prompt yang jelas dan terstruktur, hasil yang diberikan AI dapat menjadi lebih relevan dan sesuai kebutuhan.
 Materi workshop membahas Prompt Engineering, yaitu teknik menyusun instruksi AI agar menghasilkan jawaban sesuai kebutuhan dengan struktur role, task, context, dan format. Selain itu, peserta mempelajari Git sebagai alat untuk melacak perubahan file dan GitHub sebagai platform penyimpanan repository secara online. Materi juga mencakup Git Workflow yang terdiri dari Working Directory, Staging Area, dan Repository, serta penggunaan perintah dasar Git seperti git init, git add, git commit, git push, git pull, dan git clone. Peserta juga mempelajari pengaturan Git, penggunaan VS Code, serta cara menghubungkan akun GitHub melalui SSH.
