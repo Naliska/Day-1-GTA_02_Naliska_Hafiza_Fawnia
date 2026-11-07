@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student Task Planner - aplikasi sederhana untuk mengelola tugas dan tenggat waktu mahasiswa.">
+  <title>Student Task Planner</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">STUDENT PRODUCTIVITY</p>
+        <h1>Student Task Planner</h1>
+        <p class="subtitle">Atur tugas kuliah, pantau deadline, dan selesaikan satu per satu.</p>
+      </div>
+      <div class="date-chip" id="today-label">Hari ini</div>
+    </header>
+
+    <section class="summary" aria-label="Ringkasan tugas">
+      <article class="summary-card">
+        <span class="summary-label">Total tugas</span>
+        <strong id="total-count">0</strong>
+      </article>
+      <article class="summary-card">
+        <span class="summary-label">Belum selesai</span>
+        <strong id="pending-count">0</strong>
+      </article>
+      <article class="summary-card">
+        <span class="summary-label">Selesai</span>
+        <strong id="completed-count">0</strong>
+      </article>
+    </section>
+
+    <section class="tasks-panel">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">YOUR SCHEDULE</p>
+          <h2>Daftar Tugas</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter tugas">
+          <button class="filter-btn active" data-filter="all" type="button">Semua</button>
+          <button class="filter-btn" data-filter="pending" type="button">Pending</button>
+          <button class="filter-btn" data-filter="completed" type="button">Completed</button>
+        </div>
+      </div>
+
+      <div class="task-list" id="task-list" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>Tidak ada tugas pada kategori ini.</p>
+    </section>
+
+    <footer>
+      <p>Student Task Planner <span>•</span> Belajar lebih teratur, selangkah demi selangkah.</p>
+    </footer>
+  </main>
+</body>
+</html>
