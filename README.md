@@ -14,6 +14,7 @@ Repository ini merupakan tempat penyimpanan dan dokumentasi kegiatan Day 1 Proye
 - Jenis Kegiatan: Workshop
 - Peserta: Individu
 
+
 ## DOKUMENTASI KEGIATAN WORKSHOP
 ## 1. Rangkuman Materi Workshop
 Dengan menggunakan prompt yang jelas dan terstruktur, hasil yang diberikan AI dapat menjadi lebih relevan dan sesuai kebutuhan.
